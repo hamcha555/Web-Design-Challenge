@@ -1,0 +1,160 @@
+body{
+    background-color: lightsteelblue;
+}
+
+nav {
+    background-color: white;
+    padding: 0;
+}
+
+nav h3{
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: seagreen;
+}
+
+
+nav h3 a{
+    color:white;
+}
+
+nav a{
+    color: black;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+  }
+
+.dropdown a{
+    padding: 14px 16px;
+}
+
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  Add a red background color to navbar links on hover
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:gray;
+  }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+h2{
+    color:green;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 15px 0px;
+    padding: 0px 10px;
+}
+
+h4{
+    color: #6699CC;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#floated {
+    float: left ;
+}
+
+#content{
+    margin: 40px 0px;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.thumbnail{
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+}
+
+.thumbnail_border{
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+    border: 2px solid green;
+}
+
+
+.visual_img{
+    align-items: center;
+    width: 400px;
+    padding: 5px;
+}
+
+
+.compare_img{
+    align-items: center;
+    width: 375px;
+    padding: 5px;
+}
+
+#compare_content{
+    margin: 40px 40px;
+    padding: 20px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#compare_content h2{
+    text-align: left;
+}
+
+#compare_content p{
+    text-align: left;
+}
+
+table{
+    margin: 40px 40px;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color: cornsilk;
+}
