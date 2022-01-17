@@ -6,12 +6,14 @@
   <title>Wind Speed</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav class="navbar">
         <a href="index.html"><h3>Latitude</h3></a>
+        <div id=float_right>
             <div class="dropdown">
                 <button class="dropbtn">Plots
                   <i class="fa fa-caret-down"></i>
@@ -22,9 +24,11 @@
                   <a href="cloudiness.html">Cloudiness</a>
                   <a href="wind_speed.html">Wind Speed</a>
                 </div>        
-                <a href="comparison.html">Comparisons</a>
-                <a href="data.html">Data</a>
-              </div>
+            </div>
+            <a href="comparison.html">Comparisons</a>
+            <a href="data.html">Data</a>
+        </div>
+            
     </nav>
 
     <div class = "container">
@@ -42,11 +46,10 @@
             <div class = "col-12 col-md-4">
                 <div id = "content">
                     <h2>Visualizations</h2>
-                        <a target="blank" href="Resources/assets/images/Fig1.png"><img class="thumbnail" src="Resources/assets/images/Fig1.png" alt="scatter plot 1"></a>
-                        <a target="blank" href="Resources/assets/images/Fig2.png"><img class="thumbnail" src="Resources/assets/images/Fig2.png" alt="scatter plot 2"></a>
-                        <a target="blank" href="Resources/assets/images/Fig3.png"><img class="thumbnail" src="Resources/assets/images/Fig3.png" alt="scatter plot 3"></a>
-                        <a target="blank" href="Resources/assets/images/Fig4.png"><img class="thumbnail_border" src="Resources/assets/images/Fig4.png" alt="scatter plot 4"></a>
-
+                    <a href="max_temp.html"><img class="thumbnail" src="Resources/assets/images/Fig1.png" alt="Max Temp vs Latitude"></a>
+                    <a href="humidity.html"><img class="thumbnail" src="Resources/assets/images/Fig2.png" alt="Humidity vs Latitude"></a>
+                    <a href="cloudiness.html"><img class="thumbnail" src="Resources/assets/images/Fig3.png" alt="Cloudiness vs Latitude"></a>
+                    <a href="wind_speed.html"><img class="thumbnail_border" src="Resources/assets/images/Fig4.png" alt="Wind Speed vs Latitude"></a>
                 </div>
             </div>
         </div>

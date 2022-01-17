@@ -12,7 +12,7 @@ nav h3{
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     margin: 0;
-    padding: 0;
+    padding: 8px 16px;
     color: white;
     background-color: seagreen;
 }
@@ -24,6 +24,11 @@ nav h3 a{
 
 nav a{
     color: black;
+    padding: 0px 16px;
+}
+
+nav #float_right{
+    float: right;
 }
 
 /* The dropdown container */
@@ -32,7 +37,7 @@ nav a{
   }
 
 .dropdown a{
-    padding: 14px 16px;
+    padding: 0px 16px;
 }
 
 
@@ -41,15 +46,15 @@ nav a{
     font-size: 16px;
     border: none;
     outline: none;
-    padding: 14px 16px;
+    padding: 0px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  Add a red background color to navbar links on hover
+  Add a background color to navbar links on hover
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:gray;
+    background-color:lightgray;
   }
 
 /* Dropdown content (hidden by default) */
@@ -82,7 +87,6 @@ nav a{
     display: block;
   }
 
-
 h2{
     color:green;
     font-family:'Times New Roman', Times, serif;
@@ -102,7 +106,7 @@ h4{
 }
 
 #content{
-    margin: 40px 0px;
+    margin: 20px 0px;
     padding: 20px 20px;
     background-color: white;
 }
@@ -130,12 +134,12 @@ h4{
 
 .compare_img{
     align-items: center;
-    width: 375px;
+    width: 500px;
     padding: 5px;
 }
 
 #compare_content{
-    margin: 40px 40px;
+    margin: 20px 20px;
     padding: 20px 20px;
     background-color: white;
     text-align: center;
@@ -157,4 +161,36 @@ table{
 
 tr:nth-child(even){
     background-color: cornsilk;
+}
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px){
+    nav{
+        background-color: seagreen;
+    }
+    nav h3{
+        color: white;
+    }
+    nav a{
+        color: white;
+        padding: 0px 5px;
+    }
+    nav .dropbtn{
+        color: white;
+        padding: 0px 5px;
+    }
+    
+    .thumbnail{
+        align-items: center;
+        width: 200px;
+        padding: 4px;
+    }
+
+    .compare_img{
+        align-items: center;
+        width: 375px;
+        padding: 5px;
+    }
 }
